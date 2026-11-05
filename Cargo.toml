@@ -1,0 +1,13 @@
+[package]
+name = "rs-compact-repr"
+version = "1.0.0"
+edition = "2021"
+description = "Compact enum representation with NaN boxing"
+license = "MIT"
+authors = ["Mahmoud ElNemer <sultanelnemer@gmail.com>"]
+repository = "https://github.com/ElNeMeR70/rs-compact-repr"
+keywords = ["rust", "nan-boxing", "enum", "memory", "performance"]
+
+[[bin]]
+name = "rs_compact_repr"
+path = "main.rs"
